@@ -1,9 +1,13 @@
-import './App.css';
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Login from "../src/component/Login/Login";
 
 function App() {
   return (
-    <div className="App">
-     hi
+    <div>
+      <Routes>
+        <Route path="/login" element={<Login />} exact></Route>
+      </Routes>
     </div>
   );
 }
