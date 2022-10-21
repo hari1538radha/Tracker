@@ -3,6 +3,9 @@
   h1 {
     @apply text-clip;
   }
+  h3 {
+    @apply text-gray-500 ;
+  }
 }
 @tailwind components;
 @tailwind utilities;

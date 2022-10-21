@@ -16,7 +16,11 @@ module.exports = {
       '3':'11px',
       '545':'545px',
       '78':'78px',
-      '72':'210px'
+      '72':'210px',
+      '64':'64px',
+      '10':'1%',
+      '50':'25%',
+      'top':'0'
     
     },
     fontSize:{
@@ -24,7 +28,8 @@ module.exports = {
     },
     fontFamily:{
       'poppins': ['Poppins', 'sans-serif'] 
-    }
+    },
+    
   },
   plugins: [],
 }
