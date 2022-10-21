@@ -1,5 +1,6 @@
+//package import
 import React from 'react'
-
+//functionality
 const Fotter = () => {
   return (
     <div><div>
