@@ -21,6 +21,7 @@ const LandingPage = () => {
     (state) => state.userDataInfo
   );
   console.log(userData);
+  
 
   return (
     <div className="flex flex-col items-center justify-center">
