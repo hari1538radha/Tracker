@@ -5,7 +5,7 @@ import { getUserData } from "../Store/Slice/LandingSlice";
 import SearcLogo from "../Images/SearchLogo.svg";
 import Cancel from "../Images/Cancel.svg";
 import Loader from "../Images/Loader.gif";
-import Fotter from "../Fotter/Fotter";
+import Fotter from "../Footer/Footer";
 const LandingPage = () => {
   const dispatch = useDispatch();
   useEffect(() => {
