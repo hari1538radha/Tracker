@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from "../Navbar/Navbar";
 import SearcLogo from "../Images/SearchLogo.svg";
 import Cancel from "../Images/Cancel.svg";
-import sample from "../Images/sample.jpg";
+import sample from "../Images/sample.png";
 import email from "../Images/Email.svg";
 import location from "../Images/Location.svg";
 import rupee from "../Images/Rupee.svg";
