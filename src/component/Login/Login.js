@@ -1,33 +1,31 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
-import Background from "./Img/back.png";
+import Background from "../Images/Background.svg";
 
 const Login = () => {
   return (
     <div>
       <Navbar />
-      <div className="">
-        <div className="relative ">
-          <img src={Background}></img>
-          <div className="  flex flex-col justify-center  items-center bg-white absolute w-1/3 rounded-xl gap-y-4  h-1/2  left-1/3 bottom-1/4">
-            <h1 className="text-3xl "> Log In</h1>
-            <input
-              className=""
-              type="text"
-              placeholder="Your email"
-              required
-            ></input>
-            <input
-              className=""
-              type="password"
-              placeholder="Your password"
-              required
-            ></input>
-            <button className="bg-blue-300 w-3/4  h-2.5 rounded-full ">
-              Log In
-            </button>
-            <span className="text-rose-600 hidden ">Invalid Credentials</span>
-          </div>
+      <div className="relative font-poppins">
+        <img className="bg-cover" src={Background}></img>
+        <div className="  flex flex-col  items-center bg-white absolute  rounded-xl gap-y-4 w-[410px] left-1/3 top-[89px]">
+          <h1 className="text-3x mt-51 font-bold text-[42px] font-sans"> Log In</h1>
+          <input
+            className="w-[330px] border-2 border-grey-300 pl-[20px] bg-white h-51 rounded-[100px] mt-[45px]"
+            type="text"
+            placeholder="Your email"
+            required
+          ></input>
+          <input
+            className="bg-white h-51 w-[330px] rounded-[100px] pl-[20px] border-2 border-grey-300 mt-[20px]"
+            type="password"
+            placeholder="Your password"
+            required
+          ></input>
+          <button className="bg-[#6496EB] text-white w-[330px] h-51 mt-[40px] rounded-full ">
+            Log In
+          </button>
+          <span className="text-[#F75B46] mt-[20px] mb-51 ">Invalid Credentials</span>
         </div>
       </div>
     </div>
@@ -35,4 +33,3 @@ const Login = () => {
 };
 
 export default Login;
-
