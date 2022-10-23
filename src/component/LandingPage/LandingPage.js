@@ -18,7 +18,8 @@ const LandingPage = () => {
   console.log(userData);
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div>
+<div className="flex flex-col items-center justify-center">
       <Navbar />
       <div className="flex  items-center justify-center mt-11">
         <div className="flex relative">
@@ -66,10 +67,14 @@ const LandingPage = () => {
           </div>
         }
       </div>
-      <footer>
-        <Fotter />
-      </footer>
     </div>
+    <div className="mt-111">
+    <Fotter />
+
+    </div>
+
+    </div>
+    
   );
 };
 
