@@ -1,8 +1,7 @@
-import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Login from "../src/component/Login/Login";
 import LandingPage from "../src/component/LandingPage/LandingPage";
-import DetailPage from "./component/DetailPage/DetailPage";
+import DetailPage from "./component/Fotter/Fotter";
 function App() {
   return (
     <div>

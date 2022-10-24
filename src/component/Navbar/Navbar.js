@@ -1,4 +1,6 @@
+//package import 
 import React from "react";
+//Images import
 import Logo from "../Images/Logo.svg";
 
 const Navbar = () => {
@@ -7,8 +9,7 @@ const Navbar = () => {
       <div>
         <img className="pl-137" src={Logo} alt=''></img>
       </div>
-      <span className= "tracking-widest leading-3 pl-3 text-27 ">TRACKER</span>
-
+      <span className="tracking-widest leading-3 pl-3 text-27 ">TRACKER</span>
     </div>
   );
 };

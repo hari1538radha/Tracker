@@ -1,7 +1,12 @@
+//package import
 import React, { useEffect } from "react";
-import Navbar from "../Navbar/Navbar";
 import { useDispatch, useSelector } from "react-redux";
+//component import
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
+//Slice import
 import { getUserData } from "../Store/Slice/LandingSlice";
+//Images import
 import SearcLogo from "../Images/SearchLogo.svg";
 import Cancel from "../Images/Cancel.svg";
 import Loader from "../Images/Loader.gif";
@@ -16,6 +21,7 @@ const LandingPage = () => {
     (state) => state.userDataInfo
   );
   console.log(userData);
+  
 
   return (
     <div>
@@ -24,7 +30,7 @@ const LandingPage = () => {
       <div className="flex  items-center justify-center mt-11">
         <div className="flex relative">
           <input
-            className=" w-1104 pl-11 border-solid border-2 border-gray-300 h-53 rounded-l-xl flex  "
+            className=" w-1104 pl-11 border-solid border-2 border-gray-300 h-53 rounded-l-xl flex"
             type="text"
             placeholder="Search by name"
           ></input>
