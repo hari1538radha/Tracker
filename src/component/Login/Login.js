@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Background from "../Images/Background.svg";
-
+import Footer from "../Footer/Footer";
 const Login = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative font-poppins">
-        <img className="bg-cover" src={Background}></img>
+      <div className="relative font-poppins mb-11">
+        <img className="bg-cover w-[100%]" src={Background}></img>
         <div className="  flex flex-col  items-center bg-white absolute  rounded-xl gap-y-4 w-[410px] left-1/3 top-[89px]">
           <h1 className="text-3x mt-51 font-bold text-[42px] font-sans"> Log In</h1>
           <input
@@ -28,6 +28,9 @@ const Login = () => {
           <span className="text-[#F75B46] mt-[20px] mb-51 ">Invalid Credentials</span>
         </div>
       </div>
+      <div>
+        <Footer/>
+        </div>
     </div>
   );
 };

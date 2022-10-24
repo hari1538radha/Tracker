@@ -3,14 +3,14 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 //component import
 import Navbar from "../Navbar/Navbar";
-import Fotter from "../Fotter/Fotter";
+import Footer from "../Footer/Footer";
 //Slice import
 import { getUserData } from "../Store/Slice/LandingSlice";
 //Images import
 import SearcLogo from "../Images/SearchLogo.svg";
 import Cancel from "../Images/Cancel.svg";
 import Loader from "../Images/Loader.gif";
-//Functionality
+import Fotter from "../Footer/Footer";
 const LandingPage = () => {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -24,7 +24,8 @@ const LandingPage = () => {
   
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div>
+<div className="flex flex-col items-center justify-center">
       <Navbar />
       <div className="flex  items-center justify-center mt-11">
         <div className="flex relative">
@@ -72,10 +73,14 @@ const LandingPage = () => {
           </div>
         }
       </div>
-      <footer>
-        <Fotter />
-      </footer>
     </div>
+    <div className="mt-111">
+    <Fotter />
+
+    </div>
+
+    </div>
+    
   );
 };
 
